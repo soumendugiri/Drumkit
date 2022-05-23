@@ -43,10 +43,11 @@ function handleClick() {
             break;
     }
     
-    buttonanimation(buttonInnerHTML);
-} 
+    
 document.addEventListener("keypress",function (event) {
     makesound(event.key);
+   buttonanimation(event.key);
+} 
  });
 
 function makesound(key) {
